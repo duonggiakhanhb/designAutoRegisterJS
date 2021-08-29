@@ -1,0 +1,74 @@
+.form {
+    display: grid;
+    grid-template-columns:  auto auto auto;    
+    padding-left: 2em;
+}
+
+/* login-form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    height: 24px;
+}
+
+/* time-form */
+.time-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3em;
+    width: 150px;
+}
+
+/* button-form */
+
+.button-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3em;
+    justify-content: space-between;
+}
+.button {
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    border: solid 2px;
+}
+#start {
+    background-color: rgb(130, 247, 130);
+}
+#stop {
+    background-color: #f73434;
+}
+.button-form input {
+    width: 25px;
+    height: 25px;
+}
+
+/* class-code-list */
+
+.class-code-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* log */
+
+.log {
+    margin-top: 30px;
+    width: 60%;
+    height: 300px;
+    border-style: solid;
+    border-width: 2px;
+    overflow: scroll;
+}
+.error.text {
+    color: red;
+}
+.success.text {
+    color: green;
+}
